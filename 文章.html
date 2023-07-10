@@ -2,9 +2,14 @@
 <html>
 
 <head>
-    <!--下面那行表達的是網頁的編碼-->
+    <!--meta標籤 viewport=視口,device-width就是他會根據我們瀏覽的裝置他的寬度來做畫面調整-->
+    <!--initial-scale=1.0 我們在進入網頁的時候，他初始的縮放比是100% -->
     <meta charst="UTF-8">
-    </meta>
+    <meta name=" description" content="Jimmy的網站，裡面有很多教學影片" />
+    <meta name="author" content="小白" />
+    <meta name="keywords" content="小白,html,教學" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
     <title>Jimmy的練習網站</title>
 </head>
 
@@ -30,6 +35,7 @@
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
+
     <!--列表&表格-->
     <ul>
         <li>google</li>
@@ -63,7 +69,7 @@
     </ol>
     <!--html的容器 div & span-->
     <div>
-        <table width="400" style="color:red;">
+        <table width="200" style="color:red;">
             <tr>
                 <td>日期</td>
                 <td>數學</td>
@@ -74,17 +80,36 @@
                 <td>80</td>
                 <td>60</td>
             </tr>
-            <tr>
-                <td>2/9</td>
-                <td>90</td>
-                <td>80</td>
-            </tr>
     </div>
     <span>span1</span>
     <span>span2</span>
     <hr />
     <div>div1</div>
     <div>div2</div>
+    <br />
+    <br />
+    <!--html輸入標籤-->
+    <input type="text" placeholder="電子郵件位地址或手機號碼" />
+    <br />
+    <br />
+    <input type="password" placeholder="密碼" />
+    <br />
+    <br />
+    <input type="date" />
+    <br />
+    <br />
+    <input type="range" />
+    <br />
+    <br />
+    <input type="file" />
+    <br />
+    <br />
+    <input type="checkbox" />
+    <br />
+    <br />
+    <textarea>你好</textarea>
+
+
 
 
 
